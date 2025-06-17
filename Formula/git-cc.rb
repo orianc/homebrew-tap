@@ -7,11 +7,11 @@ class GitCc < Formula
   depends_on "gum"
 
   def install
-    bin.install "bin/git-speed"
-    man1.install "share/man/man1/git-speed.1"
+    bin.install "bin/gitc"
+    man1.install "share/man/man1/gitc.1"
   end
 
   test do
-    system "#{bin}/git-speed", "--version"
+    system "#{bin}/gitc", "--version"
   end
 end
