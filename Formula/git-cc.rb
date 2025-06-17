@@ -1,4 +1,4 @@
-class GitSpeed < Formula
+class GitCc < Formula
   desc "Interactive conventional Git commit tool"
   homepage "https://github.com/orianc/git-speed"
   url "https://github.com/orianc/git-speed/archive/refs/tags/v0.1.0.tar.gz"
